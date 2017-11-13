@@ -1,0 +1,1 @@
+c:\Users\parlinr\source\repos\App1\App2\App2.csproj;x86
