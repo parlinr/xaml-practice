@@ -1,0 +1,1 @@
+C:\Users\parlinr\Desktop\xaml-practice\SearchBar\SearchBar.csproj;x86

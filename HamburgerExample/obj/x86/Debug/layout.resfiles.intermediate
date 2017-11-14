@@ -1,10 +1,16 @@
 WinMetadata\Windows.winmd
+Assets\Financial.png
+Assets\Food.png
 Assets\LockScreenLogo.scale-200.png
 Assets\SplashScreen.scale-200.png
 Assets\Square150x150Logo.scale-200.png
 Assets\Square44x44Logo.scale-200.png
 Assets\Square44x44Logo.targetsize-24_altform-unplated.png
 Assets\StoreLogo.png
+Assets\UWP-023-A.png
+Assets\UWP-023-B.png
+Assets\UWP-023-C.png
+Assets\UWP-023-Instructions.txt
 Assets\Wide310x150Logo.scale-200.png
 HamburgerExample.xr.xml
 Properties\Default.rd.xml

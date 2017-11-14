@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>JB214-L16-W-D</Machine>
+    <Machine>JB202-L04-W-D</Machine>
     <WindowsUser>parlinr</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>da9d6bb5-81dd-4d3b-9a9c-842cfa86173c</PackageIdentityName>
     <PackageIdentityPublisher>CN=parlinr</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\Users\parlinr\source\repos\App1\HamburgerExample\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\HamburgerExample.exe">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\HamburgerExample.exe">
       <PackagePath>entrypoint\HamburgerExample.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\parlinr\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -370,47 +370,65 @@
     <AppxPackagedFile Include="C:\Users\parlinr\.nuget\packages\System.Xml.XmlSerializer\4.0.11\lib\netcore50\System.Xml.XmlSerializer.dll">
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Financial.png">
+      <PackagePath>Assets\Financial.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Food.png">
+      <PackagePath>Assets\Food.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\UWP-023-A.png">
+      <PackagePath>Assets\UWP-023-A.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\UWP-023-B.png">
+      <PackagePath>Assets\UWP-023-B.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\UWP-023-C.png">
+      <PackagePath>Assets\UWP-023-C.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\HamburgerExample.xr.xml">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\UWP-023-Instructions.txt">
+      <PackagePath>Assets\UWP-023-Instructions.txt</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\HamburgerExample.xr.xml">
       <PackagePath>HamburgerExample.xr.xml</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\Core\HamburgerExample.exe">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\Core\HamburgerExample.exe">
       <PackagePath>HamburgerExample.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

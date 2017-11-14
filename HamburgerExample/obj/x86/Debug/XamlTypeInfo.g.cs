@@ -132,15 +132,19 @@ namespace HamburgerExample.HamburgerExample_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
-            _typeNameTable[0] = "HamburgerExample.MainPage";
+            _typeNameTable = new string[5];
+            _typeNameTable[0] = "HamburgerExample.Financial";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "HamburgerExample.Food";
+            _typeNameTable[4] = "HamburgerExample.MainPage";
 
-            _typeTable = new global::System.Type[3];
-            _typeTable[0] = typeof(global::HamburgerExample.MainPage);
+            _typeTable = new global::System.Type[5];
+            _typeTable[0] = typeof(global::HamburgerExample.Financial);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::HamburgerExample.Food);
+            _typeTable[4] = typeof(global::HamburgerExample.MainPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -175,7 +179,9 @@ namespace HamburgerExample.HamburgerExample_XamlTypeInfo
             return -1;
         }
 
-        private object Activate_0_MainPage() { return new global::HamburgerExample.MainPage(); }
+        private object Activate_0_Financial() { return new global::HamburgerExample.Financial(); }
+        private object Activate_3_Food() { return new global::HamburgerExample.Food(); }
+        private object Activate_4_MainPage() { return new global::HamburgerExample.MainPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -187,9 +193,9 @@ namespace HamburgerExample.HamburgerExample_XamlTypeInfo
             switch (typeIndex)
             {
 
-            case 0:   //  HamburgerExample.MainPage
+            case 0:   //  HamburgerExample.Financial
                 userType = new global::HamburgerExample.HamburgerExample_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_0_MainPage;
+                userType.Activator = Activate_0_Financial;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
@@ -200,6 +206,20 @@ namespace HamburgerExample.HamburgerExample_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::HamburgerExample.HamburgerExample_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  HamburgerExample.Food
+                userType = new global::HamburgerExample.HamburgerExample_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_Food;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 4:   //  HamburgerExample.MainPage
+                userType = new global::HamburgerExample.HamburgerExample_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_4_MainPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;

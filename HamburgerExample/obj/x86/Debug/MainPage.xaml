@@ -12,15 +12,35 @@
             <RowDefinition Height="Auto" />
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <RelativePanel>
-            <Button x:ConnectionId='6' Name="HamburgerButton"
+        <StackPanel Orientation="Horizontal">
+            <RelativePanel>
+                <Button x:ConnectionId='10' Name="HamburgerButton"
                     FontFamily="Segoe MDL2 Assets"
                     Content="&#xE700;"
                     FontSize="36"
+                    
                                                   />
-            
+                
 
-        </RelativePanel>
+
+
+            </RelativePanel>
+            <Button x:ConnectionId='6' Name="BackButton"
+                    FontFamily="Segoe MDL2 Assets"
+                    FontSize="36"
+                    Content="&#xE0A6;"
+                    Background="White"
+                                             />
+            <TextBlock x:ConnectionId='7' Name="PageTitle"
+                     FontSize="36"
+                     Text="Financial" />
+            <RelativePanel HorizontalAlignment="Right">
+                <Button x:ConnectionId='8' Name="SearchButton" Content="Search" RelativePanel.AlignRightWithPanel="True" Margin="0,0,10,0" />
+                <TextBox x:ConnectionId='9' Name="SearchTextBox" RelativePanel.LeftOf="SearchButton" Width="100" Margin="0,0,10,0" />
+            </RelativePanel>
+            
+        </StackPanel>
+        
         <SplitView x:ConnectionId='1' Name="MySplitView"
                    Grid.Row="1"
                    DisplayMode="CompactOverlay"

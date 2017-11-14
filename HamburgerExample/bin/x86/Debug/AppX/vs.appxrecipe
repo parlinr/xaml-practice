@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>JB214-L16-W-D</Machine>
+    <Machine>JB202-L04-W-D</Machine>
     <WindowsUser>parlinr</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>da9d6bb5-81dd-4d3b-9a9c-842cfa86173c</PackageIdentityName>
     <PackageIdentityPublisher>CN=parlinr</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\Users\parlinr\source\repos\App1\HamburgerExample\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,8 +18,8 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>58DC8CD8501AFF203C165B8232AFC4A98418566791F02C84A349DFB22FE811C9</RegisteredManifestChecksum>
+    <LayoutDir>C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\AppX</LayoutDir>
+    <RegisteredManifestChecksum>1DC6BA460F4F525829D50B711763AA789346C788843AF1B7BB3F80282D08A63C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>da9d6bb5-81dd-4d3b-9a9c-842cfa86173c_1.0.0.0_x86__2vvt8rbymf9fe</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>da9d6bb5-81dd-4d3b-9a9c-842cfa86173c_2vvt8rbymf9fe!App</RegisteredUserModeAppID>
     <RegisteredPackageID>da9d6bb5-81dd-4d3b-9a9c-842cfa86173c</RegisteredPackageID>
@@ -28,16 +28,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-13T23:23:20.592</Modified>
+      <Modified>2017-11-14T19:48:54.129</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\HamburgerExample.exe">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\HamburgerExample.exe">
       <PackagePath>entrypoint\HamburgerExample.exe</PackagePath>
-      <Modified>2017-11-13T23:23:20.087</Modified>
+      <Modified>2017-11-14T19:48:53.687</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\parlinr\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -495,60 +495,84 @@
       <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
       <Modified>2016-06-12T03:15:04.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2017-11-13T22:56:42.297</Modified>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Financial.png">
+      <PackagePath>Assets\Financial.png</PackagePath>
+      <Modified>2017-11-14T19:13:15.822</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Food.png">
+      <PackagePath>Assets\Food.png</PackagePath>
+      <Modified>2017-11-14T19:13:15.826</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\UWP-023-A.png">
+      <PackagePath>Assets\UWP-023-A.png</PackagePath>
+      <Modified>2017-11-14T19:13:15.830</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\UWP-023-B.png">
+      <PackagePath>Assets\UWP-023-B.png</PackagePath>
+      <Modified>2017-11-14T19:13:15.836</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\UWP-023-C.png">
+      <PackagePath>Assets\UWP-023-C.png</PackagePath>
+      <Modified>2017-11-14T19:13:15.840</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
-      <Modified>2017-08-15T14:47:47.378</Modified>
+      <Modified>2017-11-14T17:40:47.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T14:47:47.378</Modified>
+      <Modified>2017-11-14T17:40:47.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T14:47:47.378</Modified>
+      <Modified>2017-11-14T17:40:47.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T14:47:47.378</Modified>
+      <Modified>2017-11-14T17:40:47.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T14:47:47.378</Modified>
+      <Modified>2017-11-14T17:40:47.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T14:47:47.378</Modified>
+      <Modified>2017-11-14T17:40:47.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-08-15T14:47:47.378</Modified>
+      <Modified>2017-11-14T17:40:47.337</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\HamburgerExample.xr.xml">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Assets\UWP-023-Instructions.txt">
+      <PackagePath>Assets\UWP-023-Instructions.txt</PackagePath>
+      <Modified>2017-11-14T19:13:15.844</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2017-11-14T17:40:47.337</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\HamburgerExample.xr.xml">
       <PackagePath>HamburgerExample.xr.xml</PackagePath>
-      <Modified>2017-11-13T23:23:19.972</Modified>
+      <Modified>2017-11-14T19:48:53.581</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-08-15T14:05:35.194</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-11-13T23:23:20.441</Modified>
+      <Modified>2017-11-14T19:48:53.991</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\Users\parlinr\source\repos\App1\HamburgerExample\bin\x86\Debug\Core\HamburgerExample.exe">
+    <AppxPackagedFile Include="C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\bin\x86\Debug\Core\HamburgerExample.exe">
       <PackagePath>HamburgerExample.exe</PackagePath>
-      <Modified>2017-11-13T23:23:20.589</Modified>
+      <Modified>2017-11-14T19:48:54.126</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

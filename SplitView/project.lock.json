@@ -22006,12 +22006,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "c:\\Users\\parlinr\\source\\repos\\App1\\SplitView\\SplitView.csproj",
+      "projectUniqueName": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\SplitView\\SplitView.csproj",
       "projectName": "SplitView",
-      "projectPath": "c:\\Users\\parlinr\\source\\repos\\App1\\SplitView\\SplitView.csproj",
-      "projectJsonPath": "c:\\Users\\parlinr\\source\\repos\\App1\\SplitView\\project.json",
+      "projectPath": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\SplitView\\SplitView.csproj",
+      "projectJsonPath": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\SplitView\\project.json",
       "packagesPath": "C:\\Users\\parlinr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\parlinr\\source\\repos\\App1\\SplitView\\obj\\",
+      "outputPath": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\SplitView\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\parlinr\\AppData\\Roaming\\NuGet\\NuGet.Config",

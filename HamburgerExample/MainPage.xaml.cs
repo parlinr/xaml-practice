@@ -43,5 +43,10 @@ namespace HamburgerExample
                 ResultTextBlock.Text = "Favorites";
             }
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

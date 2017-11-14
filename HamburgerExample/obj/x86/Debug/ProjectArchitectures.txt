@@ -1,1 +1,1 @@
-c:\Users\parlinr\source\repos\App1\HamburgerExample\HamburgerExample.csproj;x86
+C:\Users\parlinr\Desktop\xaml-practice\HamburgerExample\HamburgerExample.csproj;x86

@@ -22006,12 +22006,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "c:\\Users\\parlinr\\source\\repos\\App1\\SearchBar\\SearchBar.csproj",
+      "projectUniqueName": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\SearchBar\\SearchBar.csproj",
       "projectName": "SearchBar",
-      "projectPath": "c:\\Users\\parlinr\\source\\repos\\App1\\SearchBar\\SearchBar.csproj",
-      "projectJsonPath": "c:\\Users\\parlinr\\source\\repos\\App1\\SearchBar\\project.json",
+      "projectPath": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\SearchBar\\SearchBar.csproj",
+      "projectJsonPath": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\SearchBar\\project.json",
       "packagesPath": "C:\\Users\\parlinr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\parlinr\\source\\repos\\App1\\SearchBar\\obj\\",
+      "outputPath": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\SearchBar\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\parlinr\\AppData\\Roaming\\NuGet\\NuGet.Config",

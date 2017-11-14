@@ -22006,12 +22006,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "c:\\Users\\parlinr\\source\\repos\\App1\\HamburgerExample\\HamburgerExample.csproj",
+      "projectUniqueName": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\HamburgerExample\\HamburgerExample.csproj",
       "projectName": "HamburgerExample",
-      "projectPath": "c:\\Users\\parlinr\\source\\repos\\App1\\HamburgerExample\\HamburgerExample.csproj",
-      "projectJsonPath": "c:\\Users\\parlinr\\source\\repos\\App1\\HamburgerExample\\project.json",
+      "projectPath": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\HamburgerExample\\HamburgerExample.csproj",
+      "projectJsonPath": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\HamburgerExample\\project.json",
       "packagesPath": "C:\\Users\\parlinr\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\parlinr\\source\\repos\\App1\\HamburgerExample\\obj\\",
+      "outputPath": "C:\\Users\\parlinr\\Desktop\\xaml-practice\\HamburgerExample\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\parlinr\\AppData\\Roaming\\NuGet\\NuGet.Config",
