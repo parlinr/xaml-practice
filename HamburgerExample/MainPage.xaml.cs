@@ -25,6 +25,9 @@ namespace HamburgerExample
         public MainPage()
         {
             this.InitializeComponent();
+            BackButton.Visibility = Visibility.Collapsed;
+            MyFrame.Navigate(typeof(Financial));
+            FinancialListBoxItem.IsSelected = true;
         }
 
         private void HamburgerButton_Click(object sender, RoutedEventArgs e)
@@ -34,19 +37,27 @@ namespace HamburgerExample
 
         private void IconsListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (ShareListBoxItem.IsSelected)
+            if (FinancialListBoxItem.IsSelected)
             {
-                ResultTextBlock.Text = "Share";
+                BackButton.Visibility = Visibility.Collapsed;
+                MyFrame.Navigate(typeof(Financial));
+                PageTitle.Text = "Financial";
             }
-            else if (FavoritesListBoxItem.IsSelected)
+            else if (FoodListBoxItem.IsSelected)
             {
-                ResultTextBlock.Text = "Favorites";
+                BackButton.Visibility = Visibility.Visible;
+                MyFrame.Navigate(typeof(Food));
+                PageTitle.Text = "Food";
             }
         }
 
         private void BackButton_Click(object sender, RoutedEventArgs e)
         {
-
+            if (MyFrame.CanGoBack)
+            {
+                MyFrame.GoBack();
+                FinancialListBoxItem.IsSelected = true;
+            }
         }
     }
 }
