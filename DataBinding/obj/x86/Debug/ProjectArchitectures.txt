@@ -1,0 +1,1 @@
+C:\Users\parlinr\Desktop\xaml-practice\DataBinding\DataBinding.csproj;x86
